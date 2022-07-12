@@ -1,31 +1,30 @@
 ## Funcionales
 
-|RF001| Ingresar cuenta de cliente (usuario) |
+|RF001| Ingresar al sistema |
 |---|---|
-|Descripción| El sistema le permite al usuario acceder a su cuenta de cliente introduciendo su número de cliente y su contraseña. |
-|Comentarios| El número de cliente será único y no se podrá modificar. |  
+|Descripción| El sistema le permite al usuario acceder a su cuenta de cliente mediante sus credenciales asociados a dicha cuenta. |
+|Comentarios| Los credenciales para acceder son el número de cliente y su contraseña. |  
+
 
 |RF002| Consultar información cuenta cliente |
 |---|---|
-|Descripción| El sistema le permite al usuario cambiar su contraseña en caso de que este lo haya olvidado. |
-|Comentarios| Cada cuanto se puede hacer esta? . |
+|Descripción| El sistema le permite al usuario poder consultar sus datos personales asociados a su cuenta cliente. |
+|Comentarios| La informacion de su cuenta cliente arrojará datos personales (nombres, apellidos, email, etc.). |
 
-|RF003| Modificar datos personales (Cuenta cliente) |
+
+|RF003| Modificar datos personales (Cuenta Cliente) |
 |---|---|
-|Descripción| El sistema le permite al usuario transferir dinero entre sus propias cuentas bancarias. |
-|Comentarios| El sistema al seleccionar Transferencia entre cuentas propias le mostrara las otras cuentas que posee. |
+|Descripción| El usuario puede modificar datos personales de su cuenta cliente. |
+|Comentarios| El número de cliente no se podrá modificar. Para realizar cualquier modificación, el usuario debe ingresar su contraseña. |
+
 
 |RF004| Transferir saldo |
 |---|---|
-|Descripción| El usuario puede enviar dinero de alguna de sus cuentas bancarias a una cuenta de otro cuentahambiente. |
-|Comentarios| . |
+|Descripción| El sistema le permite al usuario realizar transferencias de saldo a una cuenta bancaria. |
+|Comentarios| La cuenta bancaria a la cual se le transferira el monto tendra que estar registrada previamente en la base de datos. |
+
 
 |RF005| Consultar estado de cuenta |
 |---|---|
-|Descripción| El sistema le despliega al cliente un listado de los movimientos realizados de la cuenta bancaria seleccionada de últimos 30 días. |
-|Comentarios| Cada cuenta bancaria tendrá su propio estado de cuenta. |
-
-|RF006|  |
-|---|---|
-|Descripción| El usuario puede consultar información general de su cuenta cliente. |
-|Comentarios| La informacion de su cuenta cliente arrojará datos personales (dirección, email, nombre, etc.) y la información del saldo total de cada cuenta bancaria. |
+|Descripción| El sistema le despliega al cliente un listado de los movimientos realizados de la cuenta bancaria seleccionada. |
+|Comentarios| Ninguno |
