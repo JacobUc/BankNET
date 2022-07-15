@@ -54,7 +54,7 @@
 |Model| Se usaron las clases Transaccion, CuentaBancaria, DBTransaccionQuery, DBCuentaBancariaQuery.  |
 |View| Se usaron las clases ConsultarEstadoCuentaUI, AccederCuentaBancariaUI, MenuCuentaClienteUI.  |
 |Controller| Se usaron las clases ConsultarEstadoCuentaController, AccederCuentaBancariaController, MenuCuentaClienteController, CuentaBancariaController, TransaccionController.  |
-|Resumen| Desde la clase MenuCuentaClienteUI se invoca a la clase ConsultarInformacionClienteController cuando el usuario presiona el botón "Acceder Cuenta Bancaria". Desde la clase AccederCuentaBancariaUI se invoca a la clase ConsultarEstadoCuentaController cuando el usuario presiona el botón "Consultar Transferencias". Desde ConsultarEstadoCuentaController se usan métodos de las clases TransaccionController, la cual a su vez usa métodos de las clases DBTransaccionQuery, DBCuentaClienteQuery para realizar consultas a la base de datos y la clase CuentaBancariaController para recuperar datos de la cuenta bancaria como el saldo. |
+|Resumen| Desde la clase MenuCuentaClienteUI se invocan a las clases ConsultarInformacionClienteController y ConsultarInformacionClienteUI cuando el usuario presiona el botón "Acceder Cuenta Bancaria". Desde la clase AccederCuentaBancariaUI se invocan a la clases ConsultarEstadoCuentaController y ConsultarEstadoCuentaUI cuando el usuario presiona el botón "Consultar Transferencias". Desde ConsultarEstadoCuentaController se usan métodos de la clase TransaccionController, la cual a su vez usa métodos de las clases DBTransaccionQuery, DBCuentaClienteQuery para procesar las consultas que se realizan a la base de datos y la clase CuentaBancariaController para recuperar datos de la cuenta bancaria. |
 <br />
 <br />
 
