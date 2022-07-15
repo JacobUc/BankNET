@@ -1,4 +1,4 @@
-## Implementación del sistema usando MVC
+## MVC en la implementación del sistema
 
 
 ***Caso de uso No.1***
