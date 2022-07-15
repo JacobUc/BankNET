@@ -1,4 +1,4 @@
-# BankNET-2.0
+# BankNET 2.0
 
 BankNET consiste en un sistema de administración bancaria en donde principalmente se puedan realizar transferencias y revisar el estado de las cuentas bancarias de un cliente dentro de un contexto de dinero digital.
   
